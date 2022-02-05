@@ -41,7 +41,7 @@ navbar {
 }
 .btn-branding {
   background: var(--branding-color);
-  border-radius: 4px;
+  border-radius: 22px;
   color: white;
   font-size: 18px;
   line-height: 27px;
@@ -66,6 +66,7 @@ navbar {
   display: -webkit-inline-flex;
   margin-left: auto;
   opacity: 2;
+  position: relative;
 }
 .container {
   display: block;
@@ -81,12 +82,17 @@ navbar {
   text-align: center;
 }
 .fa-linkedin-in {
+  font-size: 50px;
   background: #3b5998;
   color: white;
+  margin-right: 50px;
+  border-radius: 5px;
 }
 .fa-github {
   background: gray;
   color: white;
+  font-size: 50px;
+  border-radius: 4px;
 }
 .fab:hover {
   opacity: 0.7;
