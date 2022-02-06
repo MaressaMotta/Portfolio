@@ -33,12 +33,26 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-navbar {
-  background: rgb(242, 213, 240);
-  color: rgb(242, 213, 240);
-}
-.hero {
+.navbar-brand {
   background: var(--secondary-color);
+  font-family: "Lobster", cursive;
+}
+.navbar-collapse {
+  flex-grow: 1;
+  text-align: center;
+  background: var(--secondary-color);
+  color: white;
+
+  width: 100%;
+  top: 0;
+
+  justify-content: space-evenly;
+}
+
+.hero {
+  background-image: url(/images/background.png);
+  background-position: center center;
+  opacity: 2;
   text-align: center;
   padding: 160px 20px;
 }
@@ -111,6 +125,10 @@ navbar {
 .fab:hover {
   opacity: 0.7;
 }
+.email-link {
+  font-size: 27px;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 44px;
