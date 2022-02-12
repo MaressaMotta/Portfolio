@@ -126,6 +126,11 @@ p {
   font-size: 50px;
   border-radius: 4px;
 }
+.fa-instagram-square{
+  font-size: 50px;
+  border-radius: 4px;
+  color: rgb(148, 36, 148);
+}
 .fab:hover {
   opacity: 0.7;
 }
