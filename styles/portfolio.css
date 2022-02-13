@@ -25,6 +25,9 @@ h2 {
   font-size: 60px;
   justify-content: center;
 }
+h3 {
+  font-size: 48px;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -100,6 +103,19 @@ p {
   display: block;
   text-align: center;
 }
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -109,14 +125,15 @@ footer .social-links a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
-.fab:hover {
-  opacity: 0.7;
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 .email-link {
   font-size: 27px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -140,10 +157,13 @@ footer .social-links a {
 @media (max-width: 800px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
   h2 {
     font-size: 34px;
+  }
+  h3 {
+    font-size: 26px;
   }
   .avatar {
     width: 50px;
