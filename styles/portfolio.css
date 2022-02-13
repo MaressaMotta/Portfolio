@@ -100,32 +100,14 @@ p {
   display: block;
   text-align: center;
 }
-.contact-link {
-  padding: 20px;
-  font-size: 40px;
-  width: 30px;
-  margin: 20px auto;
-  text-decoration: none;
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
   border-radius: 50%;
-  text-align: center;
-}
-.fa-linkedin-in {
-  font-size: 50px;
-  background: #3b5998;
-  color: white;
-  margin-right: 50px;
-  border-radius: 5px;
-}
-.fa-github {
-  background: gray;
-  color: white;
-  font-size: 50px;
-  border-radius: 4px;
-}
-.fa-instagram-square {
-  font-size: 50px;
-  border-radius: 4px;
-  color: rgb(148, 36, 148);
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
 .fab:hover {
   opacity: 0.7;
