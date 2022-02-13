@@ -120,6 +120,9 @@ nav li.active a {
   display: block;
   text-align: center;
 }
+.fab {
+  font-size: 40px;
+}
 footer {
   margin: 60px 0;
 }
