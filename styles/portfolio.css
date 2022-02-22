@@ -126,7 +126,10 @@ nav li.active a {
 footer {
   margin: 60px 0;
 }
-
+img {
+  width: 75px;
+  border-radius: 4px;
+}
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
