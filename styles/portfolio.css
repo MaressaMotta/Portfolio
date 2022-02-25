@@ -122,6 +122,7 @@ nav li.active a {
   flex-direction: inherit;
   width: 150px;
   margin: 0 auto;
+  position: relative;
 }
 .logo:hover {
   cursor: pointer;
