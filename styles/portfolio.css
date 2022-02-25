@@ -70,7 +70,7 @@ nav li.active a {
   background-position: center center;
   opacity: 2;
   text-align: center;
-  padding: 160px 20px;
+  padding: 53px 20px;
 }
 .hero p {
   font-size: 25px;
@@ -115,6 +115,16 @@ nav li.active a {
 .img-fluid {
   width: 350px;
   border-radius: 6px;
+}
+.logo {
+  max-width: 100%;
+  display: flex;
+  flex-direction: inherit;
+  width: 150px;
+  margin: 0 auto;
+}
+.logo:hover {
+  cursor: pointer;
 }
 .container {
   display: block;
