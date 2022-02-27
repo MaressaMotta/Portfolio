@@ -2,7 +2,7 @@
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --default-font-family: "Baloo 2", cursive;
 }
 body {
   font-family: var(--default-font-family);
@@ -131,6 +131,7 @@ nav li.active a {
   display: block;
   text-align: center;
 }
+
 .fab {
   font-size: 40px;
 }
@@ -168,6 +169,14 @@ footer .social-links a:hover {
 }
 .content-container {
   padding: 60px 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -50px;
+  padding: 70px 20px 30px;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  width: 600px;
+  height: auto;
 }
 
 .content-container h1 {
@@ -176,7 +185,7 @@ footer .social-links a:hover {
 }
 
 .content-container h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-family: var(--default-font-family);
 }
 .content h3 {
@@ -186,6 +195,12 @@ footer .social-links a:hover {
 }
 .content {
   margin: 30px;
+}
+.vl {
+  border-left: 2px solid var(--branding-color);
+  height: 100px;
+  position: relative;
+  left: 50%;
 }
 
 @media (max-width: 800px) {
@@ -230,4 +245,12 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+  .content-container {
+    width: 550px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #dadadadc;
+}
+
+
 }
