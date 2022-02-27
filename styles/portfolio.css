@@ -127,10 +127,7 @@ nav li.active a {
 .logo:hover {
   cursor: pointer;
 }
-.container {
-  display: block;
-  text-align: center;
-}
+
 
 .fab {
   font-size: 40px;
@@ -167,6 +164,10 @@ footer .social-links a:hover {
 .email-link {
   font-size: 27px;
 }
+.container {
+  display: block;
+  text-align: center;
+}
 .content-container {
   padding: 60px 20px;
   text-align: center;
@@ -193,6 +194,7 @@ footer .social-links a:hover {
   line-height: 1.5;
   font-family: var(--default-font-family);
 }
+
 .content {
   margin: 30px;
 }
