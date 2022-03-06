@@ -128,7 +128,6 @@ nav li.active a {
   cursor: pointer;
 }
 
-
 .fab {
   font-size: 40px;
 }
@@ -225,7 +224,8 @@ footer .social-links a:hover {
     text-align: center;
   }
   .hero {
-    padding: 66px 18px;
+    padding: 68px 20px;
+    text-align: center;
   }
 
   h2,
@@ -248,11 +248,9 @@ footer .social-links a:hover {
     padding: 0;
   }
   .content-container {
-    width: 550px;
+    width: 450px;
     height: auto;
     border-radius: 20px;
     background-color: #dadadadc;
-}
-
-
+  }
 }
